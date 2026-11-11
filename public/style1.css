@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+
+.container {
+  width: 400px;
+  background: #101010;
+  padding: 40px 30px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #c1c1c1;
+}
+
+.subtitle {
+  text-align: center;
+  color: #888888;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.error-message {
+  color: #5f8787;
+  font-size: 14px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.required {
+  color: #5f8787;
+  font-weight: bold;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #c1c1c1;
+  font-size: 14px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #202020;
+  background-color: #000000;
+  color: #c1c1c1;
+  border-radius: 0px;
+  outline: none;
+  font-size: 14px;
+}
+
+.input-group input:focus {
+  border-color: #404040;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background: #404040;
+  color: #000000;
+  border: none;
+  border-radius: 0px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #606060;
+}
+
+.btn:active {
+  background: #808080;
+}
+
+.sign {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 14px;
+  color: #707070;
+}
+
+.sign a {
+  color: #404040;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sign a:hover {
+  color: #606060;
+}
+
+.sign a:active {
+  color: #808080;
+}
