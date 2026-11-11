@@ -1,4 +1,5 @@
 const express = require("express");
+const fs = require("fs");
 
 const app = express();
 app.set("view engine", "ejs")
@@ -7,22 +8,20 @@ app.use(express.urlencoded({ extended: true }));
 
 // --- Sign in ----------------------------------------------------------------
 
-const user = {
-  email: "rclm@email.com",
-  password: "rclm!123",
-};
-
 app.get("/", (req, res) => {
   res.render("signin.ejs", { error: null });
 })
 
 app.post("/", (req, res) => {
   const { email, password } = req.body;
-  if (email === user.email && password === user.password) {
-    return(res.redirect("/home"));
-  } else {
-    return(res.render("signin.ejs", { error: "Invalid email or password!"}));
+
+  if (fs.existsSync("users.json")) {
+    const users = JSON.parse(fs.readFileSync("users.json"));
+    const user = users.find(u => u.email === email && u.password === password);
+    if (user) return(res.redirect("/home"));
   }
+
+  return(res.render("signin.ejs", { error: "Invalid email or password!"}));
 })
 
 // --- Sign up ----------------------------------------------------------------
@@ -32,6 +31,13 @@ app.get("/signup", (req, res) => {
 })
 
 app.post("/signup", (req, res) => {
+  const { name, email, username, password } = req.body;
+  if (!fs.existsSync("users.json")) fs.writeFileSync("users.json", "[]");
+
+  const users = JSON.parse(fs.readFileSync("users.json"));
+  users.push({ name, email, username, password });
+
+  fs.writeFileSync("users.json", JSON.stringify(users));
   return(res.redirect("/"));
 })
 
