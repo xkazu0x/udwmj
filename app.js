@@ -38,7 +38,8 @@ app.post("/signup", (req, res) => {
 })
 
 app.get("/posts", (req, res) => {
-  res.render("posts.ejs");
+  const posts = JSON.parse(fs.readFileSync("posts.json"));
+  res.render("posts.ejs", { posts });
 })
 
 const PORT = 8080;

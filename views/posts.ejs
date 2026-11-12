@@ -20,7 +20,6 @@
     </header>
 
     <main>
-
       <aside class="profile">
         <div class="profile-avatar">
           <img class="image" src="/images/avatar.png" width="256" height="256">
@@ -39,29 +38,24 @@
 
       <content class="post-container">
         <ul>
+          <% posts.forEach(post => { %>
           <li>
             <article class="post">
-              <date>2026-11-11</date>
-              <a href="">until we leave this earth</a>
+              <date><%= post.date %></date>
+              <a href=""><%= post.title %></a>
               <div class="post-description">
-                <p>
-                Keep your head up, confidence is everything.
-                You gotta maintain your inner state by keeping your head up
-                and you shall conquer everything in your way.
-                Nothing against you shall ever prosper.
-                Nothing against you should ever damage your mind.
-                Don't let anything destroy you.
-                </p>
+                <p><%= post.description %></p>
               </div>
             </article>
           </li>
+          <% }) %>
         </ul>
       </content>
-
     </main>
 
     <footer>
     </footer>
+
   </body>
 </html>
 
