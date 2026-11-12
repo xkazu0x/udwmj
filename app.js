@@ -7,7 +7,7 @@ app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
-  res.render("signin.ejs", { error: null });
+  res.render("sign-layout.ejs", { error: null, page: "signin" });
 })
 
 app.post("/", (req, res) => {
@@ -19,11 +19,11 @@ app.post("/", (req, res) => {
     if (user) return(res.redirect("/posts"));
   }
 
-  return(res.render("signin.ejs", { error: "Invalid email or password!"}));
+  return(res.render("sign-layout.ejs", { error: "Invalid email or password!", page: "signin" }));
 })
 
 app.get("/signup", (req, res) => {
-  res.render("signup.ejs");
+  res.render("sign-layout.ejs", { error: null, page: "signup" });
 })
 
 app.post("/signup", (req, res) => {
@@ -39,7 +39,15 @@ app.post("/signup", (req, res) => {
 
 app.get("/posts", (req, res) => {
   const posts = JSON.parse(fs.readFileSync("posts.json"));
-  res.render("posts.ejs", { posts });
+  res.render("home-layout.ejs", { page: "posts",  posts });
+})
+
+app.get("/projects", (req, res) => {
+  res.render("home-layout.ejs", { page: "projects" });
+})
+
+app.get("/resume", (req, res) => {
+  res.render("home-layout.ejs", { page: "resume" });
 })
 
 const PORT = 8080;

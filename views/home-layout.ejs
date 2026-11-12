@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/page-style.css">
-    <title>lastdayonearth.posts</title>
+    <link rel="stylesheet" href="/home-style.css">
+    <title>lastdayonearth.<%= page %></title>
   </head>
   <body>
 
     <header>
-      <h1>lastdayonearth<span>.posts</span></h1>
+      <h1>lastdayonearth<span>.<%= page %></span></h1>
       <nav>
         <ul>
-          <li><a href="">posts</a></li>
-          <li><a href="">projects</a></li>
-          <li><a href="">resume</a></li>
+          <li><a href="/posts">posts</a></li>
+          <li><a href="/projects">projects</a></li>
+          <li><a href="/resume">resume</a></li>
         </ul>
       </nav>
     </header>
@@ -35,22 +35,7 @@
           </ul>
         </div>
       </aside>
-
-      <content class="post-container">
-        <ul>
-          <% posts.forEach(post => { %>
-          <li>
-            <article class="post">
-              <date><%= post.date %></date>
-              <a href=""><%= post.title %></a>
-              <div class="post-description">
-                <p><%= post.description %></p>
-              </div>
-            </article>
-          </li>
-          <% }) %>
-        </ul>
-      </content>
+      <%- include("pages/" + page) %>
     </main>
 
     <footer>
