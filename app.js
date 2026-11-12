@@ -6,8 +6,6 @@ app.set("view engine", "ejs")
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 
-// --- Sign in ----------------------------------------------------------------
-
 app.get("/", (req, res) => {
   res.render("signin.ejs", { error: null });
 })
@@ -18,13 +16,11 @@ app.post("/", (req, res) => {
   if (fs.existsSync("users.json")) {
     const users = JSON.parse(fs.readFileSync("users.json"));
     const user = users.find(u => u.email === email && u.password === password);
-    if (user) return(res.redirect("/home"));
+    if (user) return(res.redirect("/posts"));
   }
 
   return(res.render("signin.ejs", { error: "Invalid email or password!"}));
 })
-
-// --- Sign up ----------------------------------------------------------------
 
 app.get("/signup", (req, res) => {
   res.render("signup.ejs");
@@ -41,10 +37,8 @@ app.post("/signup", (req, res) => {
   return(res.redirect("/"));
 })
 
-// --- Home -------------------------------------------------------------------
-
-app.get("/home", (req, res) => {
-  res.render("home.ejs");
+app.get("/posts", (req, res) => {
+  res.render("posts.ejs");
 })
 
 const PORT = 8080;

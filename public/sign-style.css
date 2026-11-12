@@ -17,6 +17,7 @@ body {
   width: 400px;
   background: #101010;
   padding: 40px 30px;
+  border: 1px solid #202020;
 }
 
 h2 {
@@ -27,7 +28,7 @@ h2 {
 
 .subtitle {
   text-align: center;
-  color: #888888;
+  color: #707070;
   margin-bottom: 30px;
   font-size: 14px;
 }
@@ -67,14 +68,14 @@ h2 {
 }
 
 .input-group input:focus {
-  border-color: #404040;
+  border-color: #606060;
 }
 
 .btn {
   width: 100%;
   padding: 10px;
   background: #404040;
-  color: #000000;
+  color: #c1c1c1;
   border: none;
   border-radius: 0px;
   font-size: 15px;
