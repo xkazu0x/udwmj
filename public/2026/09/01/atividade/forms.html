@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Brasileiro de Taiko | Formulário de Inscrição em Torneio</title>
+</head>
+
+<body>
+    <center>
+        <h1>Evento Brasileiro de Taiko</h1>
+        <h2>Formulário de Inscrição em Torneio</h2>
+        <form id="inscricao">
+            <fieldset style="width: 480px">
+                <legend>Dados Pessoais</legend>
+
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome">
+
+                <br><br>
+
+                <label for="nome">CPF</label>
+                <input type="number" name="cpf" id="cpf">
+
+                <br><br>
+
+                <label for="nome">Data de Nasc.</label>
+                <input type="date" name="nasc" id="nasc">
+
+                <br><br>
+
+                <input type="radio" name="genero" value="masculino">
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="genero" value="feminino">
+                <label for="feminino">Feminino</label>
+                <input type="radio" name="genero" value="outro">
+                <label for="outro">Outro</label>
+
+                <br><br>
+
+                <label for="estado">Estado</label>
+                <select name="estado" id="estado">
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Paraná">Paraná</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Belo Horizonte">Belo Horizonte</option>
+                </select>
+
+                <br><br>
+
+                <label for="telefone">Telefone</label>
+                <input type="number" name="telefone" id="telefone">
+
+                <br><br>
+
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
+
+                <br><br>
+
+                <div style="justify-items: right;">
+                    <input type="submit" name="enviar" value="Enviar">
+                </div>
+            </fieldset>
+        </form>
+    </center>
+</body>
+</html>

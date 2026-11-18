@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/home-style.css">
+    <link rel="stylesheet" href="/page-style.css">
     <title>lastdayonearth.<%= page %></title>
   </head>
   <body>
@@ -36,7 +36,15 @@
             </ul>
           </div>
         </aside>
-        <%- include("pages/" + page) %>
+
+        <% if (data.length === 0) { %>
+        <section class="page-message">
+          <p>It's a little empty in here...</p>
+        </section>
+        <% } else { %>
+          <%- include("pages/" + page) %>
+        <% } %>
+
       </main>
 
       <footer>

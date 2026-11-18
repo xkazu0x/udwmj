@@ -39,15 +39,16 @@ app.post("/signup", (req, res) => {
 
 app.get("/posts", (req, res) => {
   const posts = JSON.parse(fs.readFileSync("posts.json"));
-  res.render("home-layout.ejs", { page: "posts",  posts });
+  res.render("page-layout.ejs", { page: "posts", data: posts });
 })
 
 app.get("/projects", (req, res) => {
-  res.render("home-layout.ejs", { page: "projects" });
+  const projects = JSON.parse(fs.readFileSync("projects.json"));
+  res.render("page-layout.ejs", { page: "projects", data: projects });
 })
 
 app.get("/resume", (req, res) => {
-  res.render("home-layout.ejs", { page: "resume" });
+  res.render("page-layout.ejs", { page: "resume", data: [] });
 })
 
 const PORT = 8080;

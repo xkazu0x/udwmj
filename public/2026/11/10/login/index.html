@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cadastro de Usuário">
+    <meta name="author" content="Ruan Carlos Lins Mendes">
+    <title>Atividade 10-11</title>
+</head>
+<body>
+    <h1>Login</h1>
+
+    <form>
+        <input id="email" type="text" placeholder="exemplo@email.com" pattern="[A-Za-z0-9.]+@[A-Za-z.]+" title="Digite seu e-mail" maxlength="255" required>
+        <span id="email_err"></span>
+        <br><br>
+
+        <input id="senha" type="password" placeholder="Senha" pattern=".{8,}" title="Digite 8 ou mais caracteres" required>
+        <span id="senha_err"></span>
+        <br><br>
+
+        <input id="botao" type="button" value="Entrar" onclick="validar();">
+    </form>
+
+    <script src="/script.js"></script>
+</body>
+</html>

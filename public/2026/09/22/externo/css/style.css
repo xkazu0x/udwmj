@@ -1,0 +1,13 @@
+body {
+    background-image: url("../img/pink-floyd1.jpg");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: center top;
+}
+
+#card-destaque {
+    background-color: #f0f0f0;
+    border: solid 15px #333;
+    padding: 30px;
+    background-clip: content-box;
+}

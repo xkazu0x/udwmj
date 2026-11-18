@@ -1,15 +1,15 @@
 <section class="post-container">
   <ul>
-    <% posts.forEach(post => { %>
-    <li>
-      <article class="post">
-        <date><%= post.date %></date>
-        <a href=""><%= post.title %></a>
-        <div class="post-description">
-          <p><%= post.description %></p>
-        </div>
-      </article>
-    </li>
+    <% data.forEach(post => { %>
+      <li>
+        <article class="post">
+          <date><%= post.date %></date>
+          <a href=""><%= post.title %></a>
+          <div class="post-description">
+            <p><%= post.description %></p>
+          </div>
+        </article>
+      </li>
     <% }) %>
   </ul>
 </section>

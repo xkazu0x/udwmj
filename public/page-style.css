@@ -108,13 +108,21 @@ footer .slogan {
   padding: 1em;
 }
 
+.page-message {
+  width: 100%;
+  height: 100%;
+  padding: 1em 1em 0 1em;
+  text-align: center;
+  color: #404040;
+  border-top: 1px solid #202020;
+}
+
 .profile-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  min-width: 250px;
-  max-width: 250px;
+  max-width: 256px;
   width: 100%;
   height: 100%;
   margin: 0 1em 0 0;
@@ -194,13 +202,20 @@ footer .slogan {
 
 .post a {
   margin-left: .25em;
-  font-size: 1.1em;
+  font-size: 1.0em;
 }
 
 .post-description {
   margin: 0;
   margin-top: 0.5em;
   border-left: 3px dotted #707070;
+}
+
+.post-truncate {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
 .post-description p {

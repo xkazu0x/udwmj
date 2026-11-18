@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lâmpada - Atividade 27-10</title>
+</head>
+<body id="body">
+    <img id="imagem-lampada" src="./images/lampada-desligada.jpg" style="height: 256px">
+    <h2 id="saudacao">Seja Bem-Vindo!</h2>
+    <hr>
+    <form>
+        <label for="Seu Nome">Digite o seu nome:</label>
+        <input type="nome" id="nome"><br><br>
+        <label for="Horario">Digite a hora sem os minutos:</label>
+        <input type="number" id="horario">
+        <input type="button" onclick="VerificarHorario();" value="Verificar Hora">
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
