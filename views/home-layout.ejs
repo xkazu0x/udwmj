@@ -8,38 +8,44 @@
   </head>
   <body>
 
-    <header>
-      <h1>lastdayonearth<span>.<%= page %></span></h1>
-      <nav>
-        <ul>
-          <li><a href="/posts">posts</a></li>
-          <li><a href="/projects">projects</a></li>
-          <li><a href="/resume">resume</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <main>
-      <aside class="profile">
-        <div class="profile-avatar">
-          <img class="image" src="/images/avatar.png" width="256" height="256">
-        </div>
-        <div class="profile-name">
-          <span class="fullname">Ruan Carlos Lins Mendes</span>
-          <span class="nickname">rclm</span>
-        </div>
-        <div class="profile-links">
+    <div class="page-container">
+      <header>
+        <h1>lastdayonearth<span>.<%= page %></span></h1>
+        <nav>
           <ul>
-            <li><a href="https://github.com/xkazu0x" target="_blank">github</a></li>
-            <li><a href="https://www.linkedin.com/in/ruan-carlos-lins-mendes/" target="_blank">linkedin</a><S-Del></li>
+            <li><a href="/posts">posts</a></li>
+            <li><a href="/projects">projects</a></li>
+            <li><a href="/resume">resume</a></li>
           </ul>
-        </div>
-      </aside>
-      <%- include("pages/" + page) %>
-    </main>
+        </nav>
+      </header>
 
-    <footer>
-    </footer>
+      <main>
+        <aside class="profile-container">
+          <div class="profile-avatar">
+            <img class="image" src="/images/avatar.png" width="256" height="256">
+          </div>
+          <div class="profile-name">
+            <span class="fullname">Ruan Carlos Lins Mendes</span>
+            <span class="nickname">rclm</span>
+          </div>
+          <div class="profile-links">
+            <ul>
+              <li><a href="https://github.com/xkazu0x" target="_blank">github</a></li>
+              <li><a href="https://www.linkedin.com/in/ruan-carlos-lins-mendes/" target="_blank">linkedin</a><S-Del></li>
+            </ul>
+          </div>
+        </aside>
+        <%- include("pages/" + page) %>
+      </main>
+
+      <footer>
+        <ul>
+          <li class="slogan">lastdayonearth</li>
+          <li>© 2026 Ruan Carlos Lins Mendes</li>
+        </ul>
+      </footer>
+    </div>
 
   </body>
 </html>
