@@ -1,118 +1,118 @@
 [
   {
     "date": "2026-11-10",
-    "path": "/2026/11/10/cadastro/index.html",
+    "path": "/tasks/2026/11/10/cadastro/index.html",
     "title": "Atividade 11 (Cadastro)",
     "description": "Uma simples tela de cadastro que válida todos os campos de entrada. Se algum campo estiver inválido, ele ficará com uma aparência vermelha. Se todos os campos estiverem corretos, aparecerá uma mensagem dizendo que o cadastro foi realizado com sucesso."
   },
   {
     "date": "2026-11-10",
-    "path": "/2026/11/10/login/index.html",
+    "path": "/tasks/2026/11/10/login/index.html",
     "title": "Atividade 11 (Login)",
     "description": "Uma simples tela de login que válida todos os campos de entrada. Se algum campo estiver inválido, ele ficará com uma aparência vermelha. Se todos os campos estiverem corretos, aparecerá uma mensagem dizendo que o login foi realizado com sucesso."
   },
 
   {
     "date": "2026-11-03",
-    "path": "/2026/11/03/pisca-pisca/index.html",
+    "path": "/tasks/2026/11/03/pisca-pisca/index.html",
     "title": "Atividade 10 (Pisca-Pisca)",
     "description": "Uma página que contém uma lâmpada e três botões: ligar, desligar e piscar. O botão \"ligar\" liga a luz, o \"desligar\" desliga a luz e o \"piscar\" faz a lâmpada piscar por um certo período."
   },
   {
     "date": "2026-11-03",
-    "path": "/2026/11/03/mostrar-hora-atual/index.html",
+    "path": "/tasks/2026/11/03/mostrar-hora-atual/index.html",
     "title": "Atividade 10 (Hora Atual)",
     "description": "Uma página que mostra a hora atual ao clicar no botão."
   },
   {
     "date": "2026-11-03",
-    "path": "/2026/11/03/calculadora/index.html",
+    "path": "/tasks/2026/11/03/calculadora/index.html",
     "title": "Atividade 10 (Calculadora)",
     "description": "Simples calculadora com operações de adição, subtração, multiplicação e divisão."
   },
 
   {
     "date": "2026-10-27",
-    "path": "/2026/10/27/dia-da-semana/index.html",
+    "path": "/tasks/2026/10/27/dia-da-semana/index.html",
     "title": "Atividade 9 (Dia da Semana)",
     "description": "Digite um número e a página te dá um dia da semana de acordo com o número."
   },
   {
     "date": "2026-10-27",
-    "path": "/2026/10/27/lampada/index.html",
+    "path": "/tasks/2026/10/27/lampada/index.html",
     "title": "Atividade 9 (Lâmpada)",
     "description": "Coloque seu nome e um horário e o visual do site muda de acordo com o horário."
   },
   {
     "date": "2026-10-27",
-    "path": "/2026/10/27/semaforo/index.html",
+    "path": "/tasks/2026/10/27/semaforo/index.html",
     "title": "Atividade 9 (Semáforo)",
     "description": "Coloque uma das cores (verde, amarelo, vermelho) e o site te dá uma resposta de acordo com a cor."
   },
   {
     "date": "2026-10-27",
-    "path": "/2026/10/27/tempo/index.html",
+    "path": "/tasks/2026/10/27/tempo/index.html",
     "title": "Atividade 9 (Tempo)",
     "description": "O site te cumprimenta de acordo com o horário do mundo real atual."
   },
   {
     "date": "2026-10-13",
-    "path": "/2026/10/13/atividade/index.html",
+    "path": "/tasks/2026/10/13/atividade/index.html",
     "title": "Atividade 8",
     "description": "Calculador de nota e teste de botões que modifica o visual do site."
   },
   {
     "date": "2026-10-06",
-    "path": "/2026/10/06/atividade/index.html",
+    "path": "/tasks/2026/10/06/atividade/index.html",
     "title": "Atividade 7",
     "description": "Uma lâmpada que você pode ligar e desligar."
   },
 
   {
     "date": "2026-09-29",
-    "path": "/2026/09/29/portal-horizonte/index.html",
+    "path": "/tasks/2026/09/29/portal-horizonte/index.html",
     "title": "Atividade 6",
     "description": "Exercício de HTML e CSS que trabalha os conceitos de Tags e Estilização."
   },
   {
     "date": "2026-09-22",
-    "path": "/2026/09/22/externo/index.html",
+    "path": "/tasks/2026/09/22/externo/index.html",
     "title": "Atividade 5 (Parte 2)",
     "description": "Trabalhando com CSS: externo."
   },
   {
     "date": "2026-09-22",
-    "path": "/2026/09/22/interno/index.html",
+    "path": "/tasks/2026/09/22/interno/index.html",
     "title": "Atividade 5 (Parte 1)",
     "description": "Trabalhando com CSS: interno."
   },
   {
     "date": "2026-09-08",
-    "path": "/2026/09/08/atividade/04/index.html",
+    "path": "/tasks/2026/09/08/atividade/04/index.html",
     "title": "Atividade 4 (Parte 4)",
     "description": "Trabalhando com CSS: site com cores de fundo, texto bordas."
   },
   {
     "date": "2026-09-08",
-    "path": "/2026/09/08/atividade/03/index.html",
+    "path": "/tasks/2026/09/08/atividade/03/index.html",
     "title": "Atividade 4 (Parte 3)",
     "description": "Trabalhando com CSS: cores e bordas."
   },
   {
     "date": "2026-09-08",
-    "path": "/2026/09/08/atividade/02/index.html",
+    "path": "/tasks/2026/09/08/atividade/02/index.html",
     "title": "Atividade 4 (Parte 2)",
     "description": "Trabalhando com CSS: cores de fundo."
   },
   {
     "date": "2026-09-08",
-    "path": "/2026/09/08/atividade/01/index.html",
+    "path": "/tasks/2026/09/08/atividade/01/index.html",
     "title": "Atividade 4 (Parte 1)",
     "description": "Trabalhando com CSS: cores de texto."
   },
   {
     "date": "2026-09-01",
-    "path": "/2026/09/01/atividade/index.html",
+    "path": "/tasks/2026/09/01/atividade/index.html",
     "title": "Atividade 3",
     "description": "Trabalhando com HTML: simples site de evento brasileiro de taiko."
   },
@@ -120,19 +120,19 @@
 
   {
     "date": "2026-08-25",
-    "path": "/2026/08/25/tabela/index.html",
+    "path": "/tasks/2026/08/25/tabela/index.html",
     "title": "Atividade 2 (Tabela)",
     "description": "Trabalhando com HTML: melhores álbuns de todos os tempos."
   },
   {
     "date": "2026-08-25",
-    "path": "/2026/08/25/curriculo/index.html",
+    "path": "/tasks/2026/08/25/curriculo/index.html",
     "title": "Atividade 2 (Currículo)",
     "description": "Trabalhando com HTML: currículo."
   },
   {
     "date": "2026-08-18",
-    "path": "/2026/08/18/atividade/index.html",
+    "path": "/tasks/2026/08/18/atividade/index.html",
     "title": "Atividade 1",
     "description": "Trabalhando com HTML: saudações."
   }

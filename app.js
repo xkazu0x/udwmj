@@ -42,9 +42,9 @@ app.get("/posts", (req, res) => {
   res.render("page-layout.ejs", { page: "posts", data: posts });
 })
 
-app.get("/projects", (req, res) => {
-  const projects = JSON.parse(fs.readFileSync("projects.json"));
-  res.render("page-layout.ejs", { page: "projects", data: projects });
+app.get("/tasks", (req, res) => {
+  const tasks = JSON.parse(fs.readFileSync("tasks.json"));
+  res.render("page-layout.ejs", { page: "tasks", data: tasks });
 })
 
 app.get("/resume", (req, res) => {
