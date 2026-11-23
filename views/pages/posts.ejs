@@ -1,12 +1,12 @@
-<section class="post-container">
+<section class="content-card">
   <ul>
     <% data.forEach(post => { %>
       <li>
-        <article class="post">
+        <article class="content-card__post">
           <date><%= post.date %></date>
           <a href=""><%= post.title %></a>
-          <div class="post-description">
-            <p><%= post.description %></p>
+          <div class="content-card__post-desc">
+            <p><%= post.desc %></p>
           </div>
         </article>
       </li>

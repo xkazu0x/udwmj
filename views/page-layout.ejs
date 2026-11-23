@@ -8,7 +8,7 @@
   </head>
   <body>
 
-    <div class="page-container">
+    <div class="layout">
       <header>
         <h1>lastdayonearth<span>.<%= page %></span></h1>
         <nav>
@@ -21,15 +21,15 @@
       </header>
 
       <main>
-        <aside class="profile-container">
-          <div class="profile-avatar">
+        <aside class="profile-card">
+          <div class="profile-card__avatar">
             <img class="image" src="/images/nine.jpg" width="256" height="256">
           </div>
-          <div class="profile-name">
+          <div class="profile-card__details">
             <span class="fullname">Ruan Carlos Lins Mendes</span>
-            <span class="nickname">rclm</span>
+            <span class="username">rclm</span>
           </div>
-          <div class="profile-links">
+          <div class="profile-card__links">
             <ul>
               <li><a href="https://github.com/xkazu0x" target="_blank">github</a></li>
               <li><a href="https://www.linkedin.com/in/ruan-carlos-lins-mendes/" target="_blank">linkedin</a></li>
@@ -38,13 +38,12 @@
         </aside>
 
         <% if (data.length === 0) { %>
-        <section class="page-message">
+        <section class="empty-content-card">
           <p>It's a little empty in here...</p>
         </section>
         <% } else { %>
           <%- include("pages/" + page) %>
         <% } %>
-
       </main>
 
       <footer>
