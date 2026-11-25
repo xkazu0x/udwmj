@@ -13,8 +13,8 @@ app.get("/", (req, res) => {
 app.post("/", (req, res) => {
   const { email, password } = req.body;
 
-  if (fs.existsSync("users.json")) {
-    const users = JSON.parse(fs.readFileSync("users.json"));
+  if (fs.existsSync("tmp/users.json")) {
+    const users = JSON.parse(fs.readFileSync("tmp/users.json"));
     const user = users.find(u => u.email === email && u.password === password);
     if (user) return(res.redirect("/posts"));
   }
@@ -28,12 +28,14 @@ app.get("/signup", (req, res) => {
 
 app.post("/signup", (req, res) => {
   const { name, email, username, password } = req.body;
-  if (!fs.existsSync("users.json")) fs.writeFileSync("users.json", "[]");
 
-  const users = JSON.parse(fs.readFileSync("users.json"));
+  fs.mkdirSync("tmp", { recursive: true });
+  if (!fs.existsSync("tmp/users.json")) fs.writeFileSync("tmp/users.json", "[]");
+
+  const users = JSON.parse(fs.readFileSync("tmp/users.json"));
   users.push({ name, email, username, password });
 
-  fs.writeFileSync("users.json", JSON.stringify(users));
+  fs.writeFileSync("tmp/users.json", JSON.stringify(users));
   return(res.redirect("/"));
 })
 

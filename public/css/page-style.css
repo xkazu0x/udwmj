@@ -148,11 +148,11 @@ footer .slogan {
 
 .profile-card__info {
   width: 100%;
-  padding: 1em;
+  padding: .7em .9em;
   background-color: #101010;
 }
 
-.profile-card__info-head {
+.profile-card__info-name {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -160,11 +160,11 @@ footer .slogan {
   padding-bottom: .5em;
 }
 
-.profile-card__info-head .fullname {
+.profile-card__info-name .fullname {
   font-weight: bold;
 }
 
-.profile-card__info-head .username {
+.profile-card__info-name .username {
   color: #404040;
 }
 
@@ -172,7 +172,7 @@ footer .slogan {
   font-size: .9em;
   border-top: 1px solid #202020;
   background-color: #101010;
-  padding: .5em 0 0 0;
+  padding: .7em 0 0 0;
 }
 
 .content-card__info-links ul {
@@ -185,7 +185,7 @@ footer .slogan {
 }
 
 .profile-card__info-links li:not(:last-child) {
-  padding-bottom: .5em;
+  padding-bottom: .7em;
 }
 
 /*
@@ -300,11 +300,11 @@ footer .slogan {
 }
 
 .content-card__resume-paragraph {
-  border-left: 3px dotted #606060;
+  /* border-left: 3px dotted #606060; */
 }
 
 .content-card__resume-paragraph p {
-  margin-left: .75em;
+  /* margin-left: .75em; */
 }
 
 /*
