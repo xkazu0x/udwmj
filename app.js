@@ -48,7 +48,7 @@ app.get("/tasks", (req, res) => {
 })
 
 app.get("/resume", (req, res) => {
-  res.render("page-layout.ejs", { page: "resume", data: [] });
+  res.render("page-layout.ejs", { page: "resume" });
 })
 
 const PORT = 8080;

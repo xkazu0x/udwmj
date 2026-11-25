@@ -16,60 +16,84 @@ body {
   background-color: #000000;
 }
 
-.sign-card {
-  width: 400px;
-  padding: 1.5em;
-  background-color: #101010;
-  border: 1px solid #202020;
+a {
+  color: #404040;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.sign-card__title {
+a:hover {
+  color: #606060;
+}
+
+a:active {
+  color: #808080;
+}
+
+.sign-card {
+  width: 24em;
+  padding: 1em 0;
+  background-color: #101010;
+}
+
+.sign-card__header {
+  padding: .7em 0;
   text-align: center;
-  margin-bottom: .25em;
+  font-size: 1em;
+  /* background-color: #101010; */
+}
+
+.sign-card__header-title {
   color: #c1c1c1;
 }
 
-.sign-card__subtitle {
-  text-align: center;
-  margin-bottom: 1.5em;
-  font-size: 14px;
-  color: #707070;
+.sign-card__header-subtitle {
+  font-size: .9em;
+  color: #808080;
 }
 
-.sign-card__input-group {
+.sign-card__input-section {
+  padding: 1em;
+  /* background-color: #101010; */
+}
+
+.sign-card__input {
   margin-bottom: 1em;
 }
 
-.sign-card__input-group label {
+.sign-card__input label {
   display: block;
   margin-bottom: .5em;
-  font-size: 14px;
+  font-size: .9em;
   color: #c1c1c1;
 }
 
-.sign-card__input-group input {
+.sign-card__input input {
   width: 100%;
   padding: .7em;
-  border-radius: 0px;
-  outline: none;
-  font-size: 14px;
+  font-size: .9em;
   color: #c1c1c1;
   background-color: #000000;
   border: 1px solid #202020;
+  border-radius: 0px;
+  outline: none;
 }
 
-.sign-card__input-group input:focus {
+.sign-card__input input:focus {
   border-color: #606060;
+}
+
+.sign-card__input input::placeholder {
+  color: #404040;
 }
 
 .sign-card__input-required {
   color: #5f8787;
-  font-weight: bold;
 }
 
 .sign-card__error {
   color: #5f8787;
-  font-size: 14px;
+  font-size: .9em;
   margin-bottom: 1em;
   text-align: center;
 }
@@ -77,39 +101,27 @@ body {
 .sign-card__button {
   width: 100%;
   padding: .7em;
-  font-size: 14px;
+  font-size: 1em;
+  font-weight: bold;
   color: #c1c1c1;
-  background-color: #404040;
+  background-color: #202020;
   border: none;
   border-radius: 0px;
   cursor: pointer;
 }
 
 .sign-card__button:hover {
-  background-color: #606060;
+  background-color: #303030;
 }
 
 .sign-card__button:active {
-  background-color: #808080;
+  background-color: #404040;
 }
 
-.sign-card__alternative {
+.sign-card__footer {
+  padding: .7em;
   text-align: center;
-  margin-top: 1.5em;
-  font-size: 14px;
-  color: #707070;
-}
-
-.sign-card__alternative a {
-  color: #404040;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.sign-card__alternative a:hover {
-  color: #606060;
-}
-
-.sign-card__alternative a:active {
+  font-size: .9em;
   color: #808080;
+  /* background-color: #101010; */
 }

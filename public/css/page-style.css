@@ -78,11 +78,9 @@ main {
 footer {
   display: flex;
   justify-content: center;
-
   margin: 1em 0 0 0;
   padding: 1em;
   font-size: .9em;
-
   color: #404040;
   border-top: 1px solid #202020;
 }
@@ -133,47 +131,61 @@ footer .slogan {
   height: 100%;
   max-width: 256px;
   margin: 0 1em 0 0;
-
-  background-color: #101010;
-  border: 1px solid #202020;
 }
 
 .profile-card__avatar {
-  padding: 1rem 1rem 0rem 1rem;
+  margin-bottom: -3px;
 }
 
 .profile-card__avatar .image {
-  height: auto;
-  max-width: 100%;
-  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  max-width: 256px;
+  max-height: 256px;
+  object-fit: cover;
   aspect-ratio: 1;
 }
 
-.profile-card__details {
+.profile-card__info {
+  width: 100%;
+  padding: 1em;
+  background-color: #101010;
+}
+
+.profile-card__info-head {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1em;
-  max-width: 100%;
   line-height: 1.2em;
+  padding-bottom: .5em;
 }
 
-.profile-card__details .fullname {
+.profile-card__info-head .fullname {
   font-weight: bold;
 }
 
-.profile-card__details .username {
+.profile-card__info-head .username {
   color: #404040;
 }
 
-.profile-card__links {
-  padding: 0;
-  width: 100%;
+.profile-card__info-links {
+  font-size: .9em;
   border-top: 1px solid #202020;
+  background-color: #101010;
+  padding: .5em 0 0 0;
 }
 
-.profile-card__links li:not(:last-child) {
-  border-bottom: 1px solid #202020;
+.content-card__info-links ul {
+  list-style-type: disc;
+}
+
+.profile-card__info-links li {
+  display: list-item;
+  padding: 0;
+}
+
+.profile-card__info-links li:not(:last-child) {
+  padding-bottom: .5em;
 }
 
 /*
@@ -195,7 +207,6 @@ footer .slogan {
   width: 100%;
   height: 100%;
   background-color: #101010;
-  border: 1px solid #202020;
 }
 
 /* Posts */
@@ -248,7 +259,7 @@ footer .slogan {
 /* Resume */
 
 .content-card__resume {
-  padding: 2.5em 2em;
+  padding: 2em;
   line-height: 1.2em;
 }
 
@@ -311,14 +322,15 @@ footer .slogan {
     margin: 0 0 1em 0;
   }
 
-  /* .profile-card__avatar { */
-  /*   width: 100%; */
-  /* } */
-  /**/
-  /* .profile-card__avatar .image { */
-  /*   width: 100%; */
-  /*   height: 100%; */
-  /*   max-height: 256px; */
-  /*   object-fit: cover; */
-  /* } */
+  .profile-card__avatar {
+    width: 100%;
+  }
+
+  .profile-card__avatar .image {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 256px;
+    object-fit: cover;
+  }
 }

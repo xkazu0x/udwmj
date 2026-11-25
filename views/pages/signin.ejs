@@ -1,24 +1,30 @@
 <section class="sign-card">
-  <h2 class="sign-card__title">lastdayonearth</h2>
-  <p class="sign-card__subtitle">Sign in to your account</p>
+  <div class="sign-card__header">
+    <h2 class="sign-card__header-title">lastdayonearth</h2>
+    <p class="sign-card__header-subtitle">Sign in to your account</p>
+  </div>
 
-  <form action="/" method="POST">
-    <div class="sign-card__input-group">
-      <label for="email">Email address <span class="sign-card__input-required">*</span></label>
-      <input type="email" id="email" name="email" placeholder="Enter your email" required>
-    </div>
+  <div class="sign-card__input-section">
+    <form action="/" method="POST">
+      <div class="sign-card__input">
+        <label for="email">Email address <span class="sign-card__input-required">*</span></label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
 
-    <div class="sign-card__input-group">
-      <label for="password">Password <span class="sign-card__input-required">*</span></label>
-      <input type="password" id="password" name="password" placeholder="Enter your password" required>
-    </div>
+      <div class="sign-card__input">
+        <label for="password">Password <span class="sign-card__input-required">*</span></label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+      </div>
 
-    <% if (error) { %>
-    <p class="sign-card__error"><%= error %></p>
-    <% } %>
+      <% if (error) { %>
+      <p class="sign-card__error"><%= error %></p>
+      <% } %>
 
-    <button type="submit" class="sign-card__button">Sign in</button>
-  </form>
+      <button type="submit" class="sign-card__button">Sign in</button>
+    </form>
+  </div>
 
-  <p class="sign-card__alternative">Don't have an account? <a href="/signup">Sign up</a></p>
+  <div class="sign-card__footer">
+    <p>Don't have an account? <a href="/signup">Sign up</a></p>
+  </div>
 </section>
