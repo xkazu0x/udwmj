@@ -50,6 +50,10 @@ h1 {
   margin: 0 0 .25em 0;
 }
 
+date {
+  font-weight: bold;
+}
+
 header {
   margin: 2em 0 0 0;
 }
@@ -59,7 +63,7 @@ header span {
 }
 
 nav {
-  font-size: 1.0em;
+  font-size: 1.1em;
 }
 
 nav ul {
@@ -109,10 +113,6 @@ footer .slogan {
 .bold {
   font-weight: bold;
 }
-
-/*
- * Layout
- */
 
 .layout {
   padding: 1em;
@@ -169,7 +169,7 @@ footer .slogan {
 }
 
 .profile-card__info-links {
-  font-size: .9em;
+  font-size: 1em;
   border-top: 1px solid #202020;
   background-color: #101010;
   padding: .7em 0 0 0;
@@ -305,6 +305,35 @@ footer .slogan {
 
 .content-card__resume-paragraph p {
   /* margin-left: .75em; */
+}
+
+/*
+ * Show
+ */
+
+.content-card__show {
+  width: 100%;
+  line-height: 1.2em;
+}
+
+.content-card__show-header {
+  font-size: 1.5em;
+  margin-bottom: .5em;
+}
+
+.content-card__show-header h2 {
+  color: #404040;
+  font-size: 1em;
+  margin-bottom: .2em;
+}
+
+.content-card__show-header date {
+  font-size: .7em;
+  margin-right: .5em;
+}
+
+.content-card__show article p {
+  margin-bottom: .5em;
 }
 
 /*

@@ -1,138 +1,160 @@
 [
   {
+    "id": "atividade-11-cadastro",
     "date": "2026-11-10",
-    "path": "/tasks/2026/11/10/cadastro/index.html",
+    "path": "tasks/2026/11/10/cadastro/index.html",
     "title": "Atividade 11 (Cadastro)",
-    "desc": "Uma simples tela de cadastro que válida todos os campos de entrada. Se algum campo estiver inválido, ele ficará com uma aparência vermelha. Se todos os campos estiverem corretos, aparecerá uma mensagem dizendo que o cadastro foi realizado com sucesso."
+    "desc": "Uma simples tela de cadastro que válida todos os campos de entrada."
   },
   {
+    "id": "atividade-11-login",
     "date": "2026-11-10",
-    "path": "/tasks/2026/11/10/login/index.html",
+    "path": "tasks/2026/11/10/login/index.html",
     "title": "Atividade 11 (Login)",
-    "desc": "Uma simples tela de login que válida todos os campos de entrada. Se algum campo estiver inválido, ele ficará com uma aparência vermelha. Se todos os campos estiverem corretos, aparecerá uma mensagem dizendo que o login foi realizado com sucesso."
+    "desc": "Uma simples tela de login que válida todos os campos de entrada."
   },
 
   {
+    "id": "atividade-10-pisca-pisca",
     "date": "2026-11-03",
-    "path": "/tasks/2026/11/03/pisca-pisca/index.html",
+    "path": "tasks/2026/11/03/pisca-pisca/index.html",
     "title": "Atividade 10 (Pisca-Pisca)",
-    "desc": "Uma página que contém uma lâmpada e três botões: ligar, desligar e piscar. O botão \"ligar\" liga a luz, o \"desligar\" desliga a luz e o \"piscar\" faz a lâmpada piscar por um certo período."
+    "desc": "Uma página que implementa uma lâmpada e três botões para ligar, desligar e piscar luz."
   },
   {
+    "id": "atividade-10-hora-atual",
     "date": "2026-11-03",
-    "path": "/tasks/2026/11/03/mostrar-hora-atual/index.html",
+    "path": "tasks/2026/11/03/mostrar-hora-atual/index.html",
     "title": "Atividade 10 (Hora Atual)",
     "desc": "Uma página que mostra a hora atual ao clicar no botão."
   },
   {
+    "id": "atividade-10-calculadora",
     "date": "2026-11-03",
-    "path": "/tasks/2026/11/03/calculadora/index.html",
+    "path": "tasks/2026/11/03/calculadora/index.html",
     "title": "Atividade 10 (Calculadora)",
     "desc": "Simples calculadora com operações de adição, subtração, multiplicação e divisão."
   },
 
   {
+    "id": "atividade-9-dia-da-semana",
     "date": "2026-10-27",
-    "path": "/tasks/2026/10/27/dia-da-semana/index.html",
+    "path": "tasks/2026/10/27/dia-da-semana/index.html",
     "title": "Atividade 9 (Dia da Semana)",
     "desc": "Digite um número e a página te dá um dia da semana de acordo com o número."
   },
   {
+    "id": "atividade-9-lampada",
     "date": "2026-10-27",
-    "path": "/tasks/2026/10/27/lampada/index.html",
+    "path": "tasks/2026/10/27/lampada/index.html",
     "title": "Atividade 9 (Lâmpada)",
     "desc": "Coloque seu nome e um horário e o visual do site muda de acordo com o horário."
   },
   {
+    "id": "atividade-9-semaforo",
     "date": "2026-10-27",
-    "path": "/tasks/2026/10/27/semaforo/index.html",
+    "path": "tasks/2026/10/27/semaforo/index.html",
     "title": "Atividade 9 (Semáforo)",
     "desc": "Coloque uma das cores (verde, amarelo, vermelho) e o site te dá uma resposta de acordo com a cor."
   },
   {
+    "id": "atividade-9-tempo",
     "date": "2026-10-27",
-    "path": "/tasks/2026/10/27/tempo/index.html",
+    "path": "tasks/2026/10/27/tempo/index.html",
     "title": "Atividade 9 (Tempo)",
     "desc": "O site te cumprimenta de acordo com o horário do mundo real atual."
   },
   {
+    "id": "atividade-8",
     "date": "2026-10-13",
-    "path": "/tasks/2026/10/13/atividade/index.html",
+    "path": "tasks/2026/10/13/atividade/index.html",
     "title": "Atividade 8",
     "desc": "Calculador de nota e teste de botões que modifica o visual do site."
   },
   {
+    "id": "atividade-7",
     "date": "2026-10-06",
-    "path": "/tasks/2026/10/06/atividade/index.html",
+    "path": "tasks/2026/10/06/atividade/index.html",
     "title": "Atividade 7",
     "desc": "Uma lâmpada que você pode ligar e desligar."
   },
 
   {
+    "id": "atividade-6",
     "date": "2026-09-29",
-    "path": "/tasks/2026/09/29/portal-horizonte/index.html",
+    "path": "tasks/2026/09/29/portal-horizonte/index.html",
     "title": "Atividade 6",
     "desc": "Exercício de HTML e CSS que trabalha os conceitos de Tags e Estilização."
   },
   {
+    "id": "atividade-5-parte-2",
     "date": "2026-09-22",
-    "path": "/tasks/2026/09/22/externo/index.html",
+    "path": "tasks/2026/09/22/externo/index.html",
     "title": "Atividade 5 (Parte 2)",
     "desc": "Trabalhando com CSS: externo."
   },
   {
+    "id": "atividade-5-parte-1",
     "date": "2026-09-22",
-    "path": "/tasks/2026/09/22/interno/index.html",
+    "path": "tasks/2026/09/22/interno/index.html",
     "title": "Atividade 5 (Parte 1)",
     "desc": "Trabalhando com CSS: interno."
   },
   {
+    "id": "atividade-4-parte-4",
     "date": "2026-09-08",
-    "path": "/tasks/2026/09/08/atividade/04/index.html",
+    "path": "tasks/2026/09/08/atividade/04/index.html",
     "title": "Atividade 4 (Parte 4)",
     "desc": "Trabalhando com CSS: site com cores de fundo, texto bordas."
   },
   {
+    "id": "atividade-4-parte-3",
     "date": "2026-09-08",
-    "path": "/tasks/2026/09/08/atividade/03/index.html",
+    "path": "tasks/2026/09/08/atividade/03/index.html",
     "title": "Atividade 4 (Parte 3)",
     "desc": "Trabalhando com CSS: cores e bordas."
   },
   {
+    "id": "atividade-4-parte-2",
     "date": "2026-09-08",
-    "path": "/tasks/2026/09/08/atividade/02/index.html",
+    "path": "tasks/2026/09/08/atividade/02/index.html",
     "title": "Atividade 4 (Parte 2)",
     "desc": "Trabalhando com CSS: cores de fundo."
   },
   {
+    "id": "atividade-4-parte-1",
     "date": "2026-09-08",
-    "path": "/tasks/2026/09/08/atividade/01/index.html",
+    "path": "tasks/2026/09/08/atividade/01/index.html",
     "title": "Atividade 4 (Parte 1)",
     "desc": "Trabalhando com CSS: cores de texto."
   },
   {
+    "id": "atividade-3",
     "date": "2026-09-01",
-    "path": "/tasks/2026/09/01/atividade/index.html",
+    "path": "tasks/2026/09/01/atividade/index.html",
     "title": "Atividade 3",
     "desc": "Trabalhando com HTML: simples site de evento brasileiro de taiko."
   },
 
 
   {
+    "id": "atividade-2-tabela",
     "date": "2026-08-25",
-    "path": "/tasks/2026/08/25/tabela/index.html",
+    "path": "tasks/2026/08/25/tabela/index.html",
     "title": "Atividade 2 (Tabela)",
     "desc": "Trabalhando com HTML: melhores álbuns de todos os tempos."
   },
   {
+    "id": "atividade-2-curriculo",
     "date": "2026-08-25",
-    "path": "/tasks/2026/08/25/curriculo/index.html",
+    "path": "tasks/2026/08/25/curriculo/index.html",
     "title": "Atividade 2 (Currículo)",
     "desc": "Trabalhando com HTML: currículo."
   },
   {
+    "id": "atividade-1",
     "date": "2026-08-18",
-    "path": "/tasks/2026/08/18/atividade/index.html",
+    "path": "tasks/2026/08/18/atividade/index.html",
     "title": "Atividade 1",
     "desc": "Trabalhando com HTML: saudações."
   }

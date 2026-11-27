@@ -16,6 +16,7 @@
             <li><a href="/posts">posts</a></li>
             <li><a href="/tasks">tasks</a></li>
             <li><a href="/resume">resume</a></li>
+            <li><a href="/">sign-out</a></li>
           </ul>
         </nav>
       </header>
@@ -41,12 +42,7 @@
         <%- include("pages/" + page) %>
       </main>
 
-      <footer>
-        <ul>
-          <li class="slogan">lastdayonearth</li>
-          <li>© 2026 Ruan Carlos Lins Mendes</li>
-        </ul>
-      </footer>
+      <%- include("partials/footer") %>
     </div>
 
   </body>

@@ -31,6 +31,10 @@
         <input type="password" id="confirm-password" name="confirm_password" placeholder="Confirm your password" minlength="8" required>
       </div>
 
+      <% if (error) { %>
+      <p class="sign-card__error"><%= error %></p>
+      <% } %>
+
       <button type="submit" class="sign-card__button">Sign up</button>
     </form>
   </div>

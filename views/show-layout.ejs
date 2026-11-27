@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/page-style.css">
+    <title>lastdayonearth.<%= page %> | <%= data.title %></title>
+  </head>
+  <body>
+
+    <div class="layout">
+      <header>
+        <!-- <h1>lastdayonearth<span>.<%= page %></span></h1> -->
+        <!-- <h1><span><%= data.title %></span></h1> -->
+        <h1><%= data.title %></h1>
+        <nav>
+          <ul>
+            <li><a href="/<%= page %>">< back</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section class="content-card__show">
+          <div class="content-card__show-header">
+            <!-- <h2><%= data.title %></h2> -->
+            <date><%= data.date %></date>
+          </div>
+          <article>
+            <%- include("tasks/" + data.id) %>
+          </article>
+          <a href="/files/<%= data.path %>" target="__blank">Link da Atividade</a>
+        </section>
+      </main>
+
+      <%- include("partials/footer") %>
+    </div>
+
+  </body>
+</html>
+
